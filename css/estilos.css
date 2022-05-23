@@ -1,0 +1,35 @@
+
+.tit_prin{
+    color: black;
+}
+
+.tit_secon{
+    color: blue;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+p{
+    text-align: left;
+    color: black;
+}
+.p1{
+    color:black;
+    font-size: 20px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+nav ul{
+    display: flex; /*alineacion en forma horizontal*/
+   
+}
+ul li{
+    display: block; /*quitar viñetas*/
+    padding: 15px;
+    text-transform: uppercase;
+}
+ul li a {
+    text-decoration: none;
+}
+.menu{
+    width: 100%;
+}
