@@ -27,9 +27,26 @@ ul li{
     padding: 15px;
     text-transform: uppercase;
 }
-ul li a {
+ul li a {   
     text-decoration: none;
 }
 .menu{
     width: 100%;
+}
+
+@media only screen and (min-width:768px){
+    div contenido-inferior div{
+        width: 50%;
+        float: left;
+    }
+
+    }
+
+
+    @media only screen and (min-width:768px){
+        div contenido-superior div{
+            width: 50%;
+            float: left;
+    
+        }
 }
